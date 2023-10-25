@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#root{
+    display: flex;  
+    /*para que sea responsive*/
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+    background-color:black;
+  }
+  header {
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+    font-size: 16px;
+    background-color: rgb(9, 16, 16);
+
+
+  }
+  #header-center-section {
+    height: 60%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    justify-content: space-around;
+    background-color: #7ad00b;
+    border-radius: 20px;
+    
+  }
+  button{
+    height: 30px;
+    width: 80px;
+    border:5px;
+    border-radius: 20px;
+    background-color: #1ec6e1; 
+  }
+  nav {
+    height: 60%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+  
+  .headerLogo{
+    height: 100px;
+    width: 200px;
+    padding-left: 10px;
+    background-color: rgb(9, 16, 16);
+
+  }
+#contenedor-flechas{
+display: flex;
+justify-content:  space-between;
+background-color: black;
+}
+.nav-previus {
+  height: 30px;
+  width: 30px;
+  align-items: center;
+
+}
+.nav-next{
+height: 30px;
+width: 30px;
+align-items: center;
+}
+
+.card{
+  background-color:#272b33; 
+  display: flex;
+  color: rgb(135,206,235);
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 10%;
+  height: 25%;
+  margin: 5px;
+  border: 10px;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: -5px -6px 40px -6px rgba(42,232,221,0.33);
+  -webkit-box-shadow: -5px -6px 40px -6px rgba(42,232,221,0.33);
+  -moz-box-shadow: -5px -6px 40px -6px rgba(42,232,221,0.33);
+  }
+.posters > img{
+    margin: 20px;
+    transition: ease-in 0.2s;
+}
+#imagenes-card{
+  height: 100px;
+  width: 100px;
+}
+img:hover{
+    transform: scale(0.9);
+}
+footer{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color:#7ad00b;
+background-color: #272b33;
+}
+
+
+  

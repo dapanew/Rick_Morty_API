@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ricky Morty API </title>
+  <link rel="stylesheet" href="assets/style/style.css">
+  <script type="module" defer src="main.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+
+      <a href="index.html"> <img class="header-logo" src="assets/img/imagen.gif" alt="header-logo"
+          id="headerLogo" /></a>
+      <br>
+    </nav>
+    <br>
+    <br>
+    <div id="header-center-section">
+      <input type="text" id="personaje-input" placeholder="Personaje" />
+      <button  class="cBuscar-button" id="buscar-button" onclick="mostrarPerEncontrados()">BUSCAR</button>
+    </div>
+  </header>
+  <main>
+    <div id="contenedor-flechas">
+      <img src="assets/img/previous.png" alt="header-prevuis" id="nav-previus" class="nav-previus" />
+      <img src="assets/img/next.gif" alt="header-next" id="nav-next" class="nav-next" />
+    </div>
+    <div id="root" class="root"></div>
+  </main>
+  <footer> ***Rick and  Morty  API***</footer>
+</body>
+
+</html>
